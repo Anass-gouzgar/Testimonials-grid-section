@@ -9,12 +9,12 @@ import jeanette from "/public/images/image-jeanette.jpg";
 const index = () => {
   return (
     // container
-    <div className="rounded-2xl h-full w-full flex flex-col gap-6 md:w-[1300px] md:h-[700px] md:flex md:flex-row md:gap-6 overflow-hiddenf">
+    <div className="rounded-2xl h-full w-full flex flex-col gap-6 md:w-[1500px] xl:max-h-[900px] md:min-h-[850px] md:flex md:flex-row md:gap-6 overflow-hiddenf">
       {/* first 4 sections */}
-      <div className="md:w-[80%] h-full w-full md:grid flex flex-col gap-8 md:grid-rows-2 md:grid-cols-3 md:gap-6 ">
+      <div className="md:w-[75%] h-full w-full md:grid flex flex-col gap-8 md:grid-rows-2 md:grid-cols-3 md:gap-6 ">
         {/* 1 */}
-        <div className="flex flex-col  md:col-span-2 bgImg bg-moderate-violet p-6 rounded-2xl  shadow-2xl md:shadow-none">
-          <div className="flex flex-col gap-4">
+        <div className="flex flex-col  md:col-span-2 bgImg bg-moderate-violet p-6 rounded-2xl  shadow-2xl md:shadow-none overflow-auto">
+          <div className="flex flex-col gap-2s 2xl:gap-6">
             <div className="flex gap-4">
               <Image
                 src={daniel}
@@ -44,7 +44,7 @@ const index = () => {
           </div>
         </div>
         {/* 2 */}
-        <div className="rounded-2xl flex flex-col gap-5 bg-very-dark-grayish-blue p-6 shadow-2xl md:shadow-none">
+        <div className="rounded-2xl flex flex-col gap-5 bg-very-dark-grayish-blue p-6 shadow-2xl md:shadow-none overflow-auto">
           <div className="flex  gap-4">
             <Image
               src={jonathan}
@@ -67,7 +67,7 @@ const index = () => {
           </p>
         </div>
         {/* 3 */}
-        <div className="flex flex-col gap-4 rounded-2xl bg-White p-8  shadow-2xl">
+        <div className="flex flex-col gap-4 rounded-2xl bg-White p-8  shadow-2xl overflow-auto">
           <div className="flex  gap-4">
             <Image
               src={jeanette}
@@ -92,7 +92,7 @@ const index = () => {
           </p>
         </div>
         {/* 4 */}
-        <div className="col-span-2 rounded-2xl bg-very-dark-blackish-blue p-7 flex flex-col gap-5  shadow-2xl">
+        <div className="col-span-2 rounded-2xl bg-very-dark-blackish-blue p-7 flex flex-col gap-5  shadow-2xl overflow-auto">
           <div className="flex  gap-4">
             <Image
               src={patrick}
@@ -121,7 +121,7 @@ const index = () => {
         </div>
       </div>
       {/* last section */}
-      <div className="bg-white md:w-[20%] w-full h-full rounded-2xl p-6 flex flex-col gap-6 shadow-2xl">
+      <div className="bg-white md:w-[25%] w-full h-full md:min-h-[60px] rounded-2xl p-6 md:p-4k flex flex-col gap-6 shadow-2xl">
         <div className="flex gap-4">
           <Image
             src={kira}
@@ -133,11 +133,11 @@ const index = () => {
             <h2 className="text-light-gray">Verified Graduate</h2>
           </div>
         </div>
-        <h2 className="md:text-2xl text-xl font-bold text-very-dark-blackish-blue">
+        <h2 className="md:text-2xl text-xl font-bold p-3 text-very-dark-blackish-blue">
           {" "}
           Such a life-changing experience. Highly recommended!
         </h2>
-        <p className="text-sm text-gray-500 mt-3 font-bold leading-[21px]">
+        <p className="text-sm md:text-lg md:min-h-[550pxr] text-gray-500 mt-3 md:mt-0 font-bold leading-[29px] overflow-auto">
           “ Before joining the bootcamp, I’ve never written a line of code. I
           needed some structure from professionals who can help me learn
           programming step by step. I was encouraged to enroll by a former
