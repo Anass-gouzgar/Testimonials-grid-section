@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Anass-gouzgar/Stats-preview-card-component)
+- Solution URL: (https://github.com/Anass-gouzgar/Testimonials-grid-section)
 - Live Site URL:()
 
 ## My process
